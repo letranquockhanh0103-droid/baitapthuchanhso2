@@ -1,4 +1,4 @@
-rút gọn css body {
+body {
   margin: 0;
   background-size: cover;
   min-height: 100vh;
@@ -20,7 +20,7 @@ rút gọn css body {
   width: 900px;
   margin: 20px auto;
   padding: 3rem;
-  background-color: black;
+  background-color: #000000cd;
   color: var(--light);
   font-family: system-ui, sans-serif;
   font-size: 12px;
@@ -184,7 +184,6 @@ rút gọn css body {
   width: 40%;
 }
 
-/* ROW 3 */
 .row3 {
   margin-top: 40px;
   display: grid;
@@ -288,7 +287,7 @@ rút gọn css body {
 .row2 div:nth-child(4) {
   grid-column: 3;
   grid-row: 2;
-  max-width: 40px;
+  max-width: 60px;
   margin-right: 100px;
 }
 .row2 div:nth-child(5) {
@@ -297,4 +296,5 @@ rút gọn css body {
   width: 170px;
   z-index: 2;
   margin-left: 50px;
+  margin-top: 100px;
 }
